@@ -9,6 +9,6 @@ class Handle(object):
       data = web.input()
       if len(data) == 0:
         return "hello, this is handle view"
-          return ""
+      return ""
     except Exception, Argument:
       return Argument
